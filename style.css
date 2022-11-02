@@ -1,0 +1,419 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: ;
+    padding: 24px;
+
+}
+
+header {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+
+}
+
+.nav {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 2rem;  
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li button {
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+.details {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.details img {
+    max-width: 100%;
+    height: 250px;
+    justify-content: center;
+    margin-top: 8px;
+}
+ .details .description {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 36px;
+ }
+
+ .details p {
+    text-align: center;
+    margin-top: 10px;
+    padding: 0 8px;
+    line-height: 1.6;
+   
+ }
+
+ form {
+    display: grid;
+ }
+
+ .search {
+    max-width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: hsl(224, 93%, 58%);
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: ;
+  }
+
+  .search:hover {
+    cursor: pointer;
+    background-color:  hsl(224, 93%, 58%, .75);
+
+  }
+
+  #search {
+    max-width: 100%;
+    padding: 15px;
+    margin-top: 8px;
+  }
+
+  
+
+
+  .message {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .content-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: hsl(240, 75%, 98%);
+    padding: 10px;
+  }
+
+  .content-2 p {
+    margin-top: 8px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+
+  .content-2 picture>img {
+    max-width: 100%;
+    margin-top: 8px;
+  }
+  .content-2 .illustration{
+    max-width: 100%;
+    height: 250px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .content-2 a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: hsl(170, 45%, 43%);
+    margin-top: 10px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid white;
+    box-shadow: 40px #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 330px;
+    height: 170px;
+    margin-top: 10px;
+    margin-left: 36px;
+    padding: 8px 8px 8px 24px;
+    justify-content: center;
+    margin-bottom: 10px;
+
+  }
+
+  .aside {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .aside ul {
+    list-style: none;
+    font-weight: 600;
+    color:gray;
+    font-size: 10px;
+
+  }
+
+  .aside li > span {
+    font-weight: 800;
+    font-size: px;
+  }
+
+ 
+
+  .avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 5px;
+  }
+
+  .access {
+    background-color: hsl(238, 22%, 44%);
+    color: #fff;
+  }
+
+  .access .green {
+    text-align: center;
+    font-size: 25px;
+    font-family: ;
+  }
+
+  .access p {
+    line-height: 1.6;
+    text-align: center;
+    padding: 0 35px;
+    margin-bottom: 10px;
+  }
+
+  #e-mail {
+    padding: 12px;
+    margin-top: 10px;
+    margin: 0 40px;
+    margin-bottom: 12px;
+  }
+
+  .btn {
+    background-color: hsl(224, 93%, 58%);
+    padding: 12px;
+    color: #fff;
+    margin-top: 10px;
+    margin: 0 40px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+  }
+
+  .info {
+    background-color: hsl(243, 87%, 12%);
+    padding: 20px;
+    color: #fff;
+  }
+
+  
+  .further_info button {
+    border: none;
+    outline: none;
+    background-color:inherit;
+    color: #fff;
+  }
+  
+  .further_details button {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: #fff;
+  }
+
+  .communication ul>li {
+    list-style: none;
+    line-height: 1.4;
+    align-items: center;
+  }
+
+  .communication ul>img {
+    padding-right: 4px;
+
+  }
+
+  .logo_footer {
+    margin-bottom: 15px;
+  }
+
+  .communication {
+    margin-bottom: 15px;
+    line-height: 1.4;
+  }
+
+  .further_info {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .further_details {
+    margin-bottom: 12px;
+  }
+
+  .icon  {
+    color: #fff;
+  }
+
+  
+  .icon ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+  }
+  .icon ul i {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 7px;
+    border-radius: 50%;
+    
+  }
+
+  @media screen and (min-width: 768px) {
+    body {
+      margin: 15px;
+      padding: 12px;
+      font-size: 16px;
+    }
+    
+    .nav {
+      gap: 4rem;
+    }
+    .details {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column: 1 /span 2;
+      margin-bottom: 20px;
+ 
+      }
+
+      .details img {
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        margin-top: 45px;
+        padding-left: 40px;
+      }
+
+      .details .description {
+        text-align: start;
+        margin-top: 10px;
+        font-size: 36px;
+     }
+    
+     .details p {
+        text-align: start;
+        margin-top: 10px;
+        padding: 0 8px;
+        line-height: 1.4;
+       
+     }
+    
+     form {
+        display: flex;
+     }
+
+     .search {
+      max-width: 100%;
+      border-radius: 0;
+      padding-right: 40px;
+     
+    }
+  
+    #search {
+      max-width: 100%;
+      margin-right: 10px;
+      padding-right: 45px;
+      margin-top: 8px;
+    }
+
+    .content-2 {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .content-2 p {
+      margin-top: 8px;
+      line-height: 1.4;
+      text-align: start;
+    }
+  
+    .content-2 picture>img {
+      max-width: 100%;
+      
+    }
+    .content-2 a {
+      justify-content: flex-start;
+
+    }
+
+    .access {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column: 1 / span 2;
+    }
+
+    .access .green {
+      text-align: start;
+      font-size: 25px;
+      padding-left: 10px;
+      margin: 40px 0 20px 0;
+    }
+  
+    .access p {
+      line-height: 1.4;
+      text-align: start;
+      padding-left: 10px;
+      padding-right: 15px;
+    }
+
+    .access .form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form #e-mail {
+      margin-top: 40px;
+      max-width: 75%;
+    }
+
+    .form .btn {
+      max-width: 30%;
+    }
+
+    .communication {
+      display:flex;
+      gap: 10rem;
+    }
+
+    .further_info {
+      margin-top: 0;
+    }      
+  }
+
+
+    .attribution { 
+        margin-top: 10px;
+        font-size: 11px; 
+        text-align: center; 
+    }
+    .attribution a {
+         color: hsl(228, 45%, 44%); 
+        }
