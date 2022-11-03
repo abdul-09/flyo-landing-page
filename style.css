@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
 
 * {
     padding: 0;
@@ -6,10 +6,17 @@
     box-sizing: border-box;
 }
 
+h1,h3,
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
 body {
     font-size: 16px;
     font-family: ;
     padding: 24px;
+    font-family:  "Open Sans", sans-serif;
 
 }
 
@@ -104,6 +111,7 @@ header {
     flex-direction: column-reverse;
     background-color: hsl(240, 75%, 98%);
     padding: 10px;
+  
   }
 
   .content-2 p {
@@ -179,12 +187,13 @@ header {
   .access {
     background-color: hsl(238, 22%, 44%);
     color: #fff;
+   
   }
 
   .access .green {
     text-align: center;
     font-size: 25px;
-    font-family: ;
+    font-family:"Raleway", sans-serif; 
   }
 
   .access p {
@@ -301,6 +310,7 @@ header {
       grid-template-columns: 1fr 1fr;
       grid-column: 1 /span 2;
       margin-bottom: 20px;
+       height: 340px;
  
       }
 
@@ -347,6 +357,7 @@ header {
     .content-2 {
       display: flex;
       flex-direction: row;
+       height: 330px;
     }
   
     .content-2 p {
@@ -368,6 +379,7 @@ header {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-column: 1 / span 2;
+      height: 300px;
     }
 
     .access .green {
@@ -397,7 +409,11 @@ header {
     .form .btn {
       max-width: 30%;
     }
-
+      
+    .info {     
+        height: 340px;
+     }
+      
     .communication {
       display:flex;
       gap: 10rem;
